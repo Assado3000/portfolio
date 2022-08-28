@@ -1158,13 +1158,8 @@ width: 75%;
 
   #slide1 {
     zoom: 80%;
-    margin-top: 2%;
-
   }
 
-  .tit{
-    font-size: 2.5em;
-  }
   .wrapper-services {
     flex-direction: column;
   }
@@ -1264,25 +1259,7 @@ span.fi {
 }
 
 
-.bxs-chevron-right{
+.bxs-chevron-left{
   font-size: 45px;
-}
-
-.fp-next {
-  margin-right: 15px !important;
-}
-
-#slide1 {
-  zoom: 70%;
-  margin-top: 10%;
-
-}
-
-.tit{
-  font-size: 2em !important;
-}
-
-.timeline{
-  width: 50%;
 }
 }

@@ -1158,13 +1158,11 @@ width: 75%;
 
   #slide1 {
     zoom: 80%;
-    margin-top: 2%;
+    margin-top: 10%;
 
   }
 
-  .tit{
-    font-size: 2.5em;
-  }
+  .tit
   .wrapper-services {
     flex-direction: column;
   }

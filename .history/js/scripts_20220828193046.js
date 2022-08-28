@@ -56,26 +56,6 @@ $(document).ready(function () {
       };
     },
   });
-
-  const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector("#menu");
-  
-  hamburger.addEventListener("click", mobileMenu);
-  
-  function mobileMenu() {
-      hamburger.classList.toggle("clicked");
-      navMenu.classList.toggle("clicked");
-  }
-
-  const navLink = document.querySelectorAll(".nav-link");
-
-  navLink.forEach(n => n.addEventListener("click", closeMenu));
-  
-  function closeMenu() {
-      hamburger.classList.remove("clicked");
-      navMenu.classList.remove("clicked");
-  }
-
 });
 
 $(document).ready(function () {

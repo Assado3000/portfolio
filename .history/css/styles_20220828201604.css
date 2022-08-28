@@ -977,13 +977,7 @@ footer {
 }
 
 /*responsivo*/
-@media only screen and (min-width: 1056px) and (max-width: 1300px) {
-  .wrapper-services .box {
 
-    margin: 10px;
-}
-
-}
 @media screen and (max-width: 1055px) {
   .titulos {
     flex-direction: column;
@@ -1158,13 +1152,8 @@ width: 75%;
 
   #slide1 {
     zoom: 80%;
-    margin-top: 2%;
-
   }
 
-  .tit{
-    font-size: 2.5em;
-  }
   .wrapper-services {
     flex-direction: column;
   }
@@ -1181,16 +1170,11 @@ width: 75%;
   }
 
   .first_title {
-
     font-size: 4em;
   }
 
   .second_title {
     font-size: 3em;
-  }
-
-  #whm{
-    white-space: nowrap;
   }
 }
 
@@ -1198,91 +1182,14 @@ width: 75%;
 
 .front-face {
   height: 220px !important;
-  width: 100% !important;
-
 }
 
 .wrapper-services .box .back-face {
-  height: 220px !important;
-  width: 100% !important;
-
+  height: 150px !important;
 }
 
-#whm{
-  white-space: initial;
+.wrapper-services .box .portfolio-item {
+  width: 80%;
 }
 
-.wrapper-services .box{
-  width: 100%;
-
-}
-
-.first_title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  justify-content: center;
-  left: 0 !important;
-}
-
-
-.second_title{
-  margin-left: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.icones-row{
-  flex-direction: column;
-
-}
-
-#slide2{
-  overflow-y: scroll;
-
-}
-
-.tit-skl h2 {
-  font-size: 20px;
-}
-
-.titulos{
-  margin-top: 20%;
-
-}
-span.fi {
-  padding: 5px;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  padding: 5px;
-}
-
-.bxs-chevron-left{
-  font-size: 45px;
-}
-
-
-.bxs-chevron-right{
-  font-size: 45px;
-}
-
-.fp-next {
-  margin-right: 15px !important;
-}
-
-#slide1 {
-  zoom: 70%;
-  margin-top: 10%;
-
-}
-
-.tit{
-  font-size: 2em !important;
-}
-
-.timeline{
-  width: 50%;
-}
 }
