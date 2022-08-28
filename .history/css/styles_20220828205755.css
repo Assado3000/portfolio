@@ -155,7 +155,7 @@ noscript {
 }
 
 #menu {
-  position: initial !important;
+  position: inherit;
   height: auto !important;
   text-align: center;
 }

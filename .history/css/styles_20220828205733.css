@@ -155,7 +155,7 @@ noscript {
 }
 
 #menu {
-  position: initial !important;
+  position: inherit;
   height: auto !important;
   text-align: center;
 }
@@ -1091,7 +1091,6 @@ width: 75%;
 
 #menu{
   left: -100% !important;
-  position: fixed !important;
 
 }
 
