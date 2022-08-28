@@ -13,6 +13,7 @@ $(document).ready(function () {
     ],
     slidesNavigation: true,
     scrollHorizontally: true,
+
     dragAndMove: true,
     navigation: true,
     navigationPosition: "right",

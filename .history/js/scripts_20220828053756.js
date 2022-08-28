@@ -14,6 +14,7 @@ $(document).ready(function () {
     slidesNavigation: true,
     scrollHorizontally: true,
     //responsiveWidth: 700,
+
     dragAndMove: true,
     navigation: true,
     navigationPosition: "right",
