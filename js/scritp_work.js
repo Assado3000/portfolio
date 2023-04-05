@@ -27,7 +27,7 @@ $(document).ready(function () {
       //console.log('Index: ' + origin.index + ' Slide Index: ' + slideIndexS);
       //console.log(index, nextIndex, direction, sliding);
       if (origin.index === 2 && !sliding) {
-        if (direction === "down" && slideIndexS < 3) {
+        if (direction === "down" && slideIndexS < 5) {
           $.fn.fullpage.moveSlideRight();
           return false;
         } else if (direction === "up" && slideIndexS > 1) {
